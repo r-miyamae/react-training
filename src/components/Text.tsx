@@ -19,6 +19,7 @@ export const Text: React.FunctionComponent<Props> = ({ value }) => {
   const toggleOpen = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <div>
       <button onClick={() => toggleOpen()}>トグル</button>
